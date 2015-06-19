@@ -10,3 +10,11 @@ This resource will allow you to enable or disable various logging capabilities o
 * DiagnosticKey
 * Ensure
 
+## NetLogon Debug Logging Mode
+
+This resource will allow you to enable or disable the debug mode built into netlogon.dll. For more details about that see this [KB Article} (https://support.microsoft.com/en-us/kb/109626). The Resource implements 4 properties:
+
+* DebugMode
+* Logsize
+* Restart
+* Ensure
