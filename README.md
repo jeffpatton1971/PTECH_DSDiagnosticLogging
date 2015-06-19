@@ -1,2 +1,12 @@
-# PTECH_DSDiagnosticLogging
-PowerShell DSC Resources for setting various Directory Services logging levels
+# PTECH DS Diagnostic Logging
+
+A collection of PowerShell DSC Resources for working with various Directory Service logging levels among other things.
+
+## Set NTDS Diagnostic Logging
+
+This resource will allow you to enable or disable various logging capabilities of NTDS. This is controlled by the LoggingLevel which be default is 0 and goes up to 5. The Resource implements 3 properties:
+
+* LoggingLevel
+* DiagnosticKey
+* Ensure
+
